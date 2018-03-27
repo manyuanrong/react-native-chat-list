@@ -1,7 +1,7 @@
 {
   "name": "react-native-chat-list",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "react-native-chat-list",
   "author": "Enok <416828041@qq.com>",
   "license": "MIT",
