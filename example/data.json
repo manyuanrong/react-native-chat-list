@@ -1,0 +1,38 @@
+[
+  {
+    "position": "left",
+    "avatar": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2727319063,4252015704&fm=27&gp=0.jpg",
+    "name": "Enok",
+    "type": "text",
+    "body": "Message Info",
+    "time": 1522051507313
+  },
+  {
+    "position": "right",
+    "avatar": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=843941027,2522415533&fm=27&gp=0.jpg",
+    "name": "Enok",
+    "type": "image",
+    "body": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522063222562&di=3c24126beb3ac364ad748aebca14c173&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F7dd98d1001e939014173a90570ec54e736d19693.jpg",
+    "time": 1522051507313
+  },
+  {
+    "position": "left",
+    "avatar": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2603659354,39736236&fm=27&gp=0.jpg",
+    "name": "Enok",
+    "type": "location",
+    "body": {
+      "address": "光电园地铁站",
+      "longitude": 123.4611,
+      "latitude": 12.555
+    },
+    "time": 1522051507313
+  },
+  {
+    "position": "left",
+    "avatar": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2809576112,626361756&fm=27&gp=0.jpg",
+    "name": "Man",
+    "type": "text",
+    "body": "Message Info",
+    "time": 1522051507313
+  }
+]
