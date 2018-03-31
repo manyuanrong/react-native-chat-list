@@ -4,7 +4,7 @@
     "avatar": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2727319063,4252015704&fm=27&gp=0.jpg",
     "name": "Enok",
     "type": "text",
-    "body": "Message Info",
+    "body": "EXTEND:{'type':'ShareLocation','data':4546465464564564}",
     "time": 1522051507313
   },
   {
@@ -33,6 +33,42 @@
     "name": "Man",
     "type": "text",
     "body": "Message Info",
+    "time": 1522051507313
+  },
+  {
+    "position": "right",
+    "avatar": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=843941027,2522415533&fm=27&gp=0.jpg",
+    "name": "Enok",
+    "type": "text",
+    "body": "EXTEND:{'type':'ShareLocation','data':4546465464564564}",
+    "time": 1522051507313
+  },
+  {
+    "position": "right",
+    "avatar": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2603659354,39736236&fm=27&gp=0.jpg",
+    "name": "Enok",
+    "type": "location",
+    "body": {
+      "address": "光电园地铁站",
+      "longitude": 123.4611,
+      "latitude": 12.555
+    },
+    "time": 1522051507313
+  },
+  {
+    "position": "right",
+    "avatar": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2809576112,626361756&fm=27&gp=0.jpg",
+    "name": "Man",
+    "type": "text",
+    "body": "Message Info",
+    "time": 1522051507313
+  },
+  {
+    "position": "right",
+    "avatar": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2809576112,626361756&fm=27&gp=0.jpg",
+    "name": "Man",
+    "type": "text",
+    "body": "反倒是反倒是范德萨范德萨范德萨反倒是反倒是范德萨范德萨范德萨 Info",
     "time": 1522051507313
   }
 ]
