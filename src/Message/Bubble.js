@@ -35,9 +35,7 @@ function Box(props) {
         alignItems: "center",
         overflow: "hidden",
         minHeight: 40,
-        marginWidth: 50,
-        borderWidth: 1,
-        // borderWidth: StyleSheet.hairlineWidth,
+        borderWidth: StyleSheet.hairlineWidth,
         borderColor: bgColor,
         backgroundColor: bgColor
     };
@@ -66,12 +64,12 @@ export default class Bubble extends React.PureComponent {
 
     renderRight() {
         return <View style={{flexDirection: "row", justifyContent: "flex-end"}}>
+            <View style={{position: "absolute", right: 0, top: 0}}><Triangle position="right"/></View>
             <View style={{marginLeft: 50, marginRight: 15}}>
                 <Box position="right">
                     {this.props.children}
                 </Box>
             </View>
-            <View style={{position: "absolute", right: 0, top: 0}}><Triangle position="right"/></View>
         </View>
     }
 
