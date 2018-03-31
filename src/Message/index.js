@@ -1,5 +1,5 @@
 import React from "react";
-import {Text, View, TouchableWithoutFeedback} from "react-native";
+import {Text, TouchableWithoutFeedback, View} from "react-native";
 import Avatar from "../Avatar";
 import Bubble from "./Bubble";
 import MessageContent from "./MessageContent";
@@ -26,9 +26,11 @@ export default class Message extends React.PureComponent {
                 }, config.chat.avatar.name.style]}>{this.props.name}</Text>}
                 <View style={{flex: 1}}>
                     <TouchableWithoutFeedback onPress={() => this.props.onItemClick(this.props.data)}>
-                        <Bubble {...this.props}>
-                            <MessageContent {...this.props}/>
-                        </Bubble>
+                        <View>
+                            <Bubble {...this.props}>
+                                <MessageContent {...this.props}/>
+                            </Bubble>
+                        </View>
                     </TouchableWithoutFeedback>
                 </View>
             </View>
@@ -44,9 +46,11 @@ export default class Message extends React.PureComponent {
                     textAlign: "right"
                 }, config.chat.avatar.name.style]}>{this.props.name}</Text>}
                 <TouchableWithoutFeedback onPress={() => this.props.onItemClick(this.props.data)}>
-                    <Bubble {...this.props}>
-                        <MessageContent {...this.props}/>
-                    </Bubble>
+                    <View>
+                        <Bubble {...this.props}>
+                            <MessageContent {...this.props}/>
+                        </Bubble>
+                    </View>
                 </TouchableWithoutFeedback>
             </View>
             <Avatar path={this.props.avatar} data={this.props.data} onAvatarClick={this.props.onAvatarClick}/>

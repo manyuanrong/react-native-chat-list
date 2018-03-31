@@ -1,5 +1,5 @@
 import React from "react";
-import {View, StyleSheet, Text} from "react-native";
+import {StyleSheet, TouchableWithoutFeedback, View} from "react-native";
 import config from "../config";
 
 function Triangle(props) {
@@ -41,7 +41,7 @@ function Box(props) {
     };
     return <View style={style}>
         {props.children}
-    </View>;
+    </View>
 }
 
 export default class Bubble extends React.PureComponent {
