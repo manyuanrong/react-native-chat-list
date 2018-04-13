@@ -47,8 +47,8 @@ export default renders = {
         return <ImageItem source={item.body}/>
     },
     location(item, position) {
-        return <View>
-            <Text style={{padding: 5, backgroundColor: "#fff", borderBottomWidth: 0.5, borderColor: "#e9e9e9"}}>
+        return <View style={{width: 200}}>
+            <Text style={{padding: 5, backgroundColor: "#fff"}}>
                 {item.body.address}
             </Text>
             <Image source={require("./assets/map.png")} style={{width: 200, height: 100, backgroundColor: "#fff"}}
