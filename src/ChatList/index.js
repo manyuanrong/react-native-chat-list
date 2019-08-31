@@ -23,6 +23,8 @@ export default class ChatList extends React.Component {
         return nextProps.data.length !== this.props.data.length;
     }
 
+    _keyExtractor = (item, index) => item._id ? `${item._id}` : `${index}`;
+
     renderItem({item, index}) {
         return <View>
             <Message type={item.type} content={item.content} name={item.name} position={item.position} time={item.time}
@@ -58,7 +60,7 @@ export default class ChatList extends React.Component {
             style: [style, config.chat.list.style]
         };
 
-        return <FlatList onLayout={({nativeEvent}) => {
+        return <FlatList keyExtractor={this._keyExtractor.bind(this)} onLayout={({nativeEvent}) => {
             this.setState({height: nativeEvent.layout.height});
         }} ref="list" {...props} inverted={true} renderItem={this.renderItem.bind(this)}
                          onMomentumScrollEnd={this.onScrollEnd.bind(this)}/>;
