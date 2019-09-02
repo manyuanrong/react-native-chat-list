@@ -38,7 +38,7 @@ class ImageItem extends React.PureComponent {
     }
 }
 
-export default renders = {
+const renders = {
     text(item, position = "left") {
         const color = config.chat.bubbles[position].color;
         return <Text style={{paddingHorizontal: 10, paddingVertical: 5, color: color}}>{item.body}</Text>
@@ -56,3 +56,5 @@ export default renders = {
         </View>
     }
 }
+
+export default renders
